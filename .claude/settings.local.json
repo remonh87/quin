@@ -6,7 +6,22 @@
       "mcp__apple-calendar__get_today_events",
       "Read(//Users/remon/.claude/**)",
       "Read(//Users/remon/Library/**)",
-      "mcp__plugin_todoist_todoist__*"
+      "mcp__plugin_todoist_todoist__*",
+      "mcp__apple-events__calendar_events",
+      "mcp__apple-events__calendar_calendars"
+    ]
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
     ]
   },
   "enabledPlugins": {
