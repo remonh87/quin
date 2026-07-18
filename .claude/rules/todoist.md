@@ -10,4 +10,10 @@
   — skip context/rationale unless it changes the due date or priority.
 - Default project for new tasks: ask me once per session if ambiguous, then reuse
   that answer for the rest of the session instead of asking again.
+
+
+ ## Important lists 
+ -  Goals: showing my targets for the coming time (both long term and mid long term). When I ask you to do something I want you to advise it based on the goals that I have. Else if I plan something new I want you to help me to bring it back to my goals
+ - Content pipeline: is where I am writing my content ideas for my blog.  Use this when I need inspiration and also add task when I have a good content idea.
+ 
   

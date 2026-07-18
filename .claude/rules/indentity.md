@@ -11,3 +11,5 @@ I'm Remon — senior software engineer (18 yrs), working across Flutter/Dart, Go
 Python, React. Maintainer of flutter_stripe. Currently based in Porto, relocating to
 Edinburgh. Work 4 days/week (Mon–Thu) as an engineer; Fri/Sat are for side projects
 and building alternative income (Arkbridge Solutions).
+
+# Goals
