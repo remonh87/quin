@@ -1,0 +1,26 @@
+{
+  "name": "quin",
+  "version": "1.0.0",
+  "description": "A personal AI assistant / second brain built on [Claude Code](https://code.claude.com), named after St. Thomas Aquinas — patron saint of scholars and students.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:liturgical-calendar": "node scripts/generate-liturgical-calendar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remonh87/quin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/remonh87/quin/issues"
+  },
+  "homepage": "https://github.com/remonh87/quin#readme",
+  "dependencies": {
+    "@romcal/calendar.general-roman": "^3.0.0-dev.125",
+    "romcal": "^3.0.0-dev.125"
+  }
+}

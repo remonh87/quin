@@ -68,6 +68,34 @@ Swap `Glass.aiff` for any sound in `/System/Library/Sounds/`. Ghostty, Kitty, an
 
 The `knowledge/` folder is a standard Obsidian vault — markdown files with YAML frontmatter and `[[wikilinks]]`. Aquinas treats it as the primary source of truth for ongoing projects and reference notes, and will follow relevant links when reading, but won't pull in the whole vault for simple questions.
 
+### Liturgical calendar
+
+`knowledge/liturgical-calendar/` holds saints' feast days, liturgical seasons, and colors, generated from the [romcal](https://github.com/romcal/romcal) General Roman Calendar as one markdown file per month (`YYYY-MM.md`).
+
+Install dependencies once:
+
+```bash
+npm install
+```
+
+Regenerate the current year and next year (safe to re-run — overwrites existing month files rather than duplicating them):
+
+```bash
+npm run generate:liturgical-calendar
+```
+
+Generate specific year(s) instead (e.g. once a year, to add the upcoming year):
+
+```bash
+npm run generate:liturgical-calendar -- 2028
+```
+
+To automate this yearly, add a cron entry that runs each December and generates the coming year:
+
+```cron
+0 3 1 12 * cd /Users/remon/quin && /usr/local/bin/node scripts/generate-liturgical-calendar.js $(($(date +%Y)+1))
+```
+
 ## Rules
 
 Behavior is split across `.claude/rules/` so `CLAUDE.md` itself stays minimal:
