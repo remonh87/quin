@@ -15,7 +15,15 @@
       "Bash(cp \"/Users/remon/Downloads/Storybrand components/Attachments/91623FE0-1268-4344-AD96-55FEE4FF8691.pdf\" \"/private/tmp/claude-501/-Users-remon-quin/f5870720-de5e-459c-a2dc-e3b5c1f8f6a3/scratchpad/storybrand-sketch.png\")",
       "Bash(npm -v)",
       "Bash(node -e ' *)",
-      "Bash(xargs ls -la)"
+      "Bash(xargs ls -la)",
+      "Bash(npm run *)",
+      "Read(//Users/remon/.agents/skills/skill-creator/**)",
+      "Bash(python -m scripts.aggregate_benchmark /Users/remon/quin/liturgical-calendar-workspace/iteration-1 --skill-name liturgical-calendar)",
+      "Bash(nohup python eval-viewer/generate_review.py /Users/remon/quin/liturgical-calendar-workspace/iteration-1 --skill-name liturgical-calendar --benchmark /Users/remon/quin/liturgical-calendar-workspace/iteration-1/benchmark.json)",
+      "Bash(echo \"PID: $!\")",
+      "Read(//tmp/**)",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(kill 29687)"
     ]
   },
   "hooks": {

@@ -1,0 +1,29 @@
+{
+  "skill_name": "liturgical-calendar",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What saint is today?",
+      "expected_output": "Identifies today (2026-07-19) as the Sixteenth Sunday in Ordinary Time, rank Sunday, season Ordinary Time, color Green — by grepping knowledge/liturgical-calendar/2026-07.md rather than reading the whole file.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What's the liturgical calendar looking like for Christmas week 2028? I'm planning content ideas that far out.",
+      "expected_output": "Notices knowledge/liturgical-calendar/2028-12.md doesn't exist, runs `npm run generate:liturgical-calendar -- 2028` to create it, then returns a table for roughly Dec 20-31 2028 (or similar Christmas-week range) with Date/Celebration/Rank/Season/Color columns, including Christmas Day itself (Solemnity, White).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What are the big feast days during Lent 2027?",
+      "expected_output": "Scans knowledge/liturgical-calendar/2027-*.md (generating 2027 if missing) for rows where Season is Lent, leads with a short summary of the notable Solemnities/Feasts/Memorials (e.g. Ash Wednesday, Saint Joseph if it falls in Lent that year), then a fuller table of Lent rows.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "When's the feast of St. Ignatius of Loyola? I want to schedule a content piece around it.",
+      "expected_output": "Greps for 'Ignatius' across the relevant year's files and reports July 31 (Memorial, Ordinary Time, White) as a short prose answer, not a table.",
+      "files": []
+    }
+  ]
+}
