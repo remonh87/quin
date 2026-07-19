@@ -1,0 +1,49 @@
+{
+  "skill_name": "portfolio-rebalancer",
+  "evals": [
+    {
+      "id": 0,
+      "name": "straightforward",
+      "prompt": "I have €2,000 to invest. My portfolio: €40,000 VWCE (equities), €6,000 IGLO (global gov bonds), €3,000 gold ETC, €1,500 broad commodities ETF, €800 BTC. What should I buy?",
+      "expected_output": "A gap table (current % vs target % per blueprint class), cash waterfalled to the most underweight class(es) first (all €2,000 within total drift so no overflow case), and a final buy recommendation using only VWCE/IGLO/gold ETC/commodities ETF/BTC — no invented tickers.",
+      "files": [],
+      "assertions": [
+        "Reports current total portfolio as €51,300",
+        "Identifies Commodities as most underweight (current 2.9% vs target 3% is closest to target; actual most-underweight should be computed correctly — verify against target% 77/12/6/3/2) and shows correct ranking by (current% - target%)",
+        "All €2,000 assigned to real, existing tickers only (VWCE, IGLO, gold ETC ticker, commodities ETF ticker, or BTC) — no invented ETF name",
+        "Does not recommend selling any holding (cash-only, buy-side recommendation)",
+        "Shows a gap/allocation table, not just a final answer with no reasoning shown",
+        "Final €2,000 sums exactly across recommended buys (no money unaccounted for or double-counted)"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "missing-etf",
+      "prompt": "I want to put €1,000 to work. Current holdings: €25,000 SWDA (equities), €2,000 gold ETC, €500 crypto — no bonds or commodities position yet.",
+      "expected_output": "Recommendation should clearly flag that Bonds and Commodities have no matching existing ETF, state how much cash would have gone there, and not invent a ticker for either. Money should go toward classes that do have an ETF (or the recommendation should explicitly say most/all cash is stuck pending Remon naming tickers for the missing classes).",
+      "files": [],
+      "assertions": [
+        "Reports current total as €27,500",
+        "Correctly identifies Bonds (0% vs 12% target) as most underweight, ahead of Commodities (0% vs 3%) and Crypto (1.82% vs 2%)",
+        "Correctly identifies Equities (90.9% vs 77%) and Gold (7.3% vs 6%) as overweight, receiving €0",
+        "Explicitly states no existing ETF is held for Bonds, and does not invent a bond ticker",
+        "Does not silently drop the missing-Commodities gap — mentions it even though it doesn't receive cash this round",
+        "The €1,000 is fully accounted for (assigned to Bonds per the waterfall, not split arbitrarily)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "multi-etf-overflow",
+      "prompt": "€50,000 to invest. Holdings: €30,000 split across VWCE and IWDA (both equities, €18k/€12k), €5,000 IGLO (bonds), €2,000 gold, €1,000 commodities ETF, €500 crypto.",
+      "expected_output": "Total portfolio €38,500 + €50,000 = €88,500 final. Every class's gap sums to exactly €50,000 (mathematical identity, no class overweight enough to go negative), so all five classes land exactly on target: Equities €38,145 (VWCE/IWDA split 60/40 = €22,887/€15,258), Bonds €5,620, Gold €3,310, Commodities €1,655, Crypto €1,270. No arbitrary pro-rata leftover — the exact-target outcome IS the answer here, not a sign the ranking was skipped.",
+      "files": [],
+      "assertions": [
+        "Reports current total as €38,500 and final total as €88,500",
+        "Equities split proportionally 60/40 between VWCE (€22,887) and IWDA (€15,258), not an arbitrary or single-ticker split",
+        "All five class amounts sum to exactly €50,000",
+        "Every class lands exactly on its target % post-purchase (does not claim a leftover/pro-rata pool exists when the identity means there isn't one)",
+        "Does not invent tickers for Gold/Commodities/Crypto given only generic descriptions were provided — should flag ticker is unspecified rather than assuming one"
+      ]
+    }
+  ]
+}

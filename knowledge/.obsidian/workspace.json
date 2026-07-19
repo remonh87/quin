@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Brazil/Renato.md",
+                "file": "Investments/Desired asset allocation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Renato"
+              "title": "Desired asset allocation"
             }
           }
         ],
@@ -198,8 +198,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "722a397911123a1e",
+  "active": "a0b70762e65d58e8",
   "lastOpenFiles": [
+    "Contents.md",
+    "Investments/Desired asset allocation.md",
+    "Investments",
+    "liturgical-calendar/2026-07.md",
+    "liturgical-calendar/2027-07.md",
+    "liturgical-calendar/2026-01.md",
+    "liturgical-calendar/2026-03.md",
+    "Network/Brazil/Renato.md",
     "liturgical-calendar/2029-12.md",
     "liturgical-calendar/2029-11.md",
     "liturgical-calendar/2029-10.md",
@@ -219,13 +227,6 @@
     "liturgical-calendar/2028-08.md",
     "liturgical-calendar/2028-07.md",
     "liturgical-calendar/2028-06.md",
-    "liturgical-calendar/2028-05.md",
-    "liturgical-calendar/2028-04.md",
-    "liturgical-calendar/2028-03.md",
-    "liturgical-calendar/2028-02.md",
-    "liturgical-calendar/2028-01.md",
-    "liturgical-calendar/2027-12.md",
-    "liturgical-calendar/2027-11.md",
     "liturgical-calendar",
     "Network/Brazil/Untitled",
     "Network/Brazil",
@@ -235,7 +236,6 @@
     "Network/Edinburgh",
     "Network/Porto/Steven",
     "Network/Portugal",
-    "Network",
     "business/Attachments/storybrand-sketch.png"
   ]
 }

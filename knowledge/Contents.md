@@ -2,4 +2,5 @@
 - Business => business related articles and information about arkbridge
 - Interesting articles => articles that I want to keep around 
 - Network => my network plus a summary of my conversations with it
-- 
+- Liturgical-calendar => important dates in the catholic church.
+- Investments => everything about my investment strategy
