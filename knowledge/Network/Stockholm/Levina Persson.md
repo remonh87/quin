@@ -1,0 +1,1 @@
+Levina is working in the defense sector now in Stockholm. She was ex co-founder of bon bot and I worked with her in the startup. She's super smart, a very good product person, and a very nice integer person to work with. I would recommend her as CPO, anything, and 

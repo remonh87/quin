@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "business/Storyboard Story Brand Components.md",
+                "file": "Network/Portugal/Ahmed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storyboard Story Brand Components"
+              "title": "Ahmed"
+            }
+          },
+          {
+            "id": "a0b70762e65d58e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network/Brazil/Renato.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Renato"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,17 +198,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "b1f730219de2a8cc",
+  "active": "a0b70762e65d58e8",
   "lastOpenFiles": [
-    "Book summaries/Indistractable book.md",
+    "Network/Brazil/Rufo.md",
+    "Network/Brazil/Renato.md",
+    "Network/Stockholm/Levina Persson.md",
+    "Network/Brazil/Untitled",
+    "Network/Brazil",
+    "Network/Stockholm/Thomas Nord.md",
+    "Network/Portugal/Miguel.md",
+    "Network/Stockholm/Thomas Hartwig.md",
+    "Network/Porto/Untitled",
+    "Network/Portugal/Carlos.md",
+    "Network/Stockholm",
+    "Network/Manchester/Bhaskar.md",
+    "Network/Portugal/Alex.md",
+    "Network/Manchester",
+    "Network/Edinburgh/Mike.md",
+    "Network/Portugal/Steven.md",
+    "Network/Edinburgh",
+    "Network/Portugal/Drew.md",
+    "Network/Portugal/Leny.md",
+    "Network/Portugal/Jack.md",
+    "Network/Portugal/Art.md",
+    "Network/Portugal/Ahmed.md",
+    "Network/Porto/Steven",
+    "Contents.md",
+    "Network/Portugal",
     "business/Storyboard Story Brand Components.md",
+    "Network",
+    "Book summaries/Indistractable book.md",
     "business/Attachments/storybrand-sketch.png",
     "business/Attachments",
-    "business",
     "Interesting articles/AI/2026-07-17-ciso-s-guide-to-agentic-ai-claude-by-anthropic.md",
-    "Interesting articles/AI/0000000b9ee1230a.md",
-    "Untitled.md",
-    "Interesting articles",
-    "Book summaries"
+    "Interesting articles/AI/0000000b9ee1230a.md"
   ]
 }

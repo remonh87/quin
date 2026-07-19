@@ -1,0 +1,1 @@
+Miguel lives in the Algarve. He is a very senior Flutter engineer, Scrum Master, ex-ASML, ex-PhilipsHue. I work with him at PhilipsHue and he was a Scrum Master and a Tech Lead there. Actually together with him, Alexei and a couple of other guys, we did a transformation from native to Flutter 

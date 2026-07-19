@@ -1,0 +1,1 @@
+Thomas is the ex co-founder and CTO of Candy Crush. He lives in Mallorca but I work with him in Stockholm for the startup called BombBot. Thomas is now still investing a lot and investing in startups, starting a lot of companies himself as well. I remember he did some Hell Week (or how do you call it?) Intense Training startup and he is really a foodie 

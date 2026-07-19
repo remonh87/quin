@@ -1,0 +1,1 @@
+Bhaskar is the founder of Dirigit in Manchester and he has a background in healthcare. He's actually a doctor as well. Very smart guy and he has a successful company that does nearshoring with a very clever business model and I really like him. I did a podcast with him in November 2025 in Manchester 

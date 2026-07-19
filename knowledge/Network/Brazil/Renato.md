@@ -1,0 +1,1 @@
+Renato is the husband of Milena, friend of me and Luciana. He lives in Itapema. He is a real estate agent, a very trustworthy guy, very good in communication, and knows a lot of people there 

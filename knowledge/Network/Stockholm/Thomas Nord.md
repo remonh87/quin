@@ -1,0 +1,1 @@
+Thomas Nord is founder of Hackberry consultancy firm in Stockholm and they are mainly working in React Native front-end, also big data. He's a very honest guy, good small boutique consultancy firm in the Stockholm area 

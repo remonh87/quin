@@ -1,0 +1,1 @@
+Alex is originally from Italy. He lives in Porto and before he lived in Brazil. He speaks fluent Portuguese. He is a very good engineer and serial founder of multiple startups. He's mainly good in backend and also crypto 

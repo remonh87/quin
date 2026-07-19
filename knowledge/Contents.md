@@ -1,0 +1,5 @@
+- Book summaries => use this for deeper knowledge on all book summaries
+- Business => business related articles and information about arkbridge
+- Interesting articles => articles that I want to keep around 
+- Network => my network plus a summary of my conversations with it
+- 
