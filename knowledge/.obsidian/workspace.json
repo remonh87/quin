@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book summaries/Indistractable book.md",
+                "file": "business/Storyboard Story Brand Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indistractable book"
+              "title": "Storyboard Story Brand Components"
             }
           }
         ]
@@ -185,8 +185,12 @@
   },
   "active": "b1f730219de2a8cc",
   "lastOpenFiles": [
-    "Interesting articles/AI/2026-07-17-ciso-s-guide-to-agentic-ai-claude-by-anthropic.md",
     "Book summaries/Indistractable book.md",
+    "business/Storyboard Story Brand Components.md",
+    "business/Attachments/storybrand-sketch.png",
+    "business/Attachments",
+    "business",
+    "Interesting articles/AI/2026-07-17-ciso-s-guide-to-agentic-ai-claude-by-anthropic.md",
     "Interesting articles/AI/0000000b9ee1230a.md",
     "Untitled.md",
     "Interesting articles",

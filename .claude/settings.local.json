@@ -8,7 +8,11 @@
       "Read(//Users/remon/Library/**)",
       "mcp__plugin_todoist_todoist__*",
       "mcp__apple-events__calendar_events",
-      "mcp__apple-events__calendar_calendars"
+      "mcp__apple-events__calendar_calendars",
+      "Read(//Users/remon/Downloads/Storybrand components/Attachments/**)",
+      "Read(//Users/remon/Downloads/Storybrand components/**)",
+      "Bash(mkdir -p \"/private/tmp/claude-501/-Users-remon-quin/f5870720-de5e-459c-a2dc-e3b5c1f8f6a3/scratchpad\")",
+      "Bash(cp \"/Users/remon/Downloads/Storybrand components/Attachments/91623FE0-1268-4344-AD96-55FEE4FF8691.pdf\" \"/private/tmp/claude-501/-Users-remon-quin/f5870720-de5e-459c-a2dc-e3b5c1f8f6a3/scratchpad/storybrand-sketch.png\")"
     ]
   },
   "hooks": {
