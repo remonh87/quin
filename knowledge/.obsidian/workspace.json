@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Portugal/Ahmed.md",
+                "file": "business/Storyboard Story Brand Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ahmed"
+              "title": "Storyboard Story Brand Components"
             }
           }
         ]
@@ -183,10 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b1f730219de2a8cc",
+  "active": "722a397911123a1e",
   "lastOpenFiles": [
-    "Interesting articles/AI/2026-07-23-the-pulse-new-trend-concern-about-massive-increase-in-code-review-load.md",
+    "Interesting articles/Learning/Learn anything.md",
+    "Interesting articles/Learning",
+    "business/20260724-Diary of ceo Alex hormozi.md",
+    "business/Diary of ceo Alex hormozi.md",
+    "business/Positioning.md",
     "Network/Portugal/Ahmed.md",
+    "Interesting articles/AI/2026-07-23-the-pulse-new-trend-concern-about-massive-increase-in-code-review-load.md",
     "Interesting articles/AI/2026-07-23-the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates.md",
     "Interesting articles/AI/2026-07-22-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex.md",
     "Interesting articles/AI/2026-07-22-introducing-openai-presence.md",
@@ -205,13 +210,9 @@
     "Interesting articles/AI/2026-07-20-how-rakuten-builds-agents-overnight-with-claude-fable-5-claude-by-anthropic.md",
     "Interesting articles/AI/2026-07-17-ciso-s-guide-to-agentic-ai-claude-by-anthropic.md",
     "Investments/Desired asset allocation.md",
-    "business/Positioning.md",
     "Contents.md",
     "Investments",
     "liturgical-calendar/2026-07.md",
-    "liturgical-calendar/2027-07.md",
-    "liturgical-calendar/2026-01.md",
-    "liturgical-calendar/2026-03.md",
     "liturgical-calendar",
     "Network/Brazil/Untitled",
     "Network/Brazil",
@@ -220,7 +221,6 @@
     "Network/Manchester",
     "Network/Edinburgh",
     "Network/Porto/Steven",
-    "Network/Portugal",
     "business/Attachments/storybrand-sketch.png"
   ]
 }
