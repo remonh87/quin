@@ -11,14 +11,10 @@
             "id": "b1f730219de2a8cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "business/Storyboard Story Brand Components.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Storyboard Story Brand Components"
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +179,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "722a397911123a1e",
+  "active": "b1f730219de2a8cc",
   "lastOpenFiles": [
+    "Interesting articles/AI/2026-07-30-advancing-the-price-performance-frontier-with-gpt-5-6.md",
+    "Interesting articles/AI/2026-07-16-how-codex-became-a-collaborator-for-openai-s-creative-team.md",
+    "Interesting articles/AI/2026-07-30-how-avatarin-built-a-24-7-retail-agent-with-gpt-realtime.md",
+    "Interesting articles/AI/2026-07-30-how-to-use-google-microbenchmarks-for-evaluating-tpu-performance.md",
+    "Interesting articles/AI/2026-07-30-stacked-sessions-and-pull-requests-in-the-github-copilot-app.md",
+    "Interesting articles/AI/2026-07-30-the-economic-benefit-of-refactoring.md",
+    "Interesting articles/AI/2026-07-30-the-pulse-quitting-spotify-podcasts-over-reliability.md",
+    "Interesting articles/AI/2026-07-31-advancing-responsible-ai-across-europe.md",
+    "Interesting articles/AI/2026-07-31-the-conductor-developer.md",
+    "Interesting articles/AI/2026-07-31-don-t-stop-early-case-folding-source-code-at-memory-speed.md",
+    "Interesting articles/AI/2026-07-31-building-abundant-intelligence.md",
+    "Interesting articles/AI/2026-07-31-agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga.md",
+    "Interesting articles/AI/2026-07-31-univ-builds-an-ai-ready-workforce.md",
+    "business/Storyboard Story Brand Components.md",
     "Interesting articles/Learning/Learn anything.md",
     "Interesting articles/Learning",
     "business/20260724-Diary of ceo Alex hormozi.md",
@@ -198,21 +208,7 @@
     "Interesting articles/AI/2026-07-22-how-outtake-built-a-cyber-investigator-on-claude-claude-by-anthropic.md",
     "Interesting articles/AI/2026-07-22-how-news-organizations-are-using-ai-to-advance-their-vital-missions.md",
     "Interesting articles/AI/2026-07-22-copilot-vs-raw-api-access-what-are-you-actually-paying-for.md",
-    "Interesting articles/AI/2026-07-22-building-verification-loops-in-claude-code-with-skills-claude-by-anthropic.md",
-    "Interesting articles/AI/2026-07-22-advancing-the-next-era-of-national-science.md",
-    "Interesting articles/AI/2026-07-21-scaling-agentic-rl-high-throughput-agentic-training-with-tunix.md",
-    "Interesting articles/AI/2026-07-21-openai-and-hugging-face-partner-to-address-security-incident-during-model-evalua.md",
-    "Interesting articles/AI/2026-07-21-how-to-build-interactive-experiences-with-canvases.md",
-    "Interesting articles/AI/2026-07-21-how-anthropic-secures-its-ai-native-software-development-lifecycle-claude-by-ant.md",
-    "Interesting articles/AI/2026-07-21-fragments-july-21.md",
-    "Interesting articles/AI/2026-07-20-safety-and-alignment-in-an-era-of-long-horizon-models.md",
-    "Interesting articles/AI/2026-07-20-run-ray-on-tpu-part-1-the-foundations.md",
-    "Interesting articles/AI/2026-07-20-how-rakuten-builds-agents-overnight-with-claude-fable-5-claude-by-anthropic.md",
-    "Interesting articles/AI/2026-07-17-ciso-s-guide-to-agentic-ai-claude-by-anthropic.md",
-    "Investments/Desired asset allocation.md",
-    "Contents.md",
     "Investments",
-    "liturgical-calendar/2026-07.md",
     "liturgical-calendar",
     "Network/Brazil/Untitled",
     "Network/Brazil",
